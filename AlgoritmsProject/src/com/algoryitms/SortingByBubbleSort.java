@@ -11,7 +11,7 @@ public class SortingByBubbleSort {
 
     }
 
-    private static void sortAnArray(int[] arrayToBeSorted){
+    public static void sortAnArray(int[] arrayToBeSorted){
         int firstIndex;
         int secondIndex;
         for(firstIndex = arrayToBeSorted.length-1; firstIndex > 1; firstIndex--){
@@ -27,7 +27,7 @@ public class SortingByBubbleSort {
     public static void printArray(int[] arrayPassed){
 
         for(int oneElement : arrayPassed)
-            System.out.println(oneElement + ", ");
+            System.out.print(oneElement + ", ");
     }
 
 }
