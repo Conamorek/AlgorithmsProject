@@ -14,7 +14,7 @@ public class SortingByBubbleSort {
     public static void sortAnArray(int[] arrayToBeSorted){
         int firstIndex;
         int secondIndex;
-        for(firstIndex = arrayToBeSorted.length-1; firstIndex > 1; firstIndex--){
+        for(firstIndex = arrayToBeSorted.length-1; firstIndex >= 1; firstIndex--){
             for(secondIndex = 0; secondIndex < firstIndex; secondIndex++){
                 if(arrayToBeSorted[secondIndex] > arrayToBeSorted[secondIndex + 1]){
                     swapNumbers(secondIndex,arrayToBeSorted);
